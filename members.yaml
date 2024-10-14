@@ -1,0 +1,71 @@
+cc__members:
+- count: 10000
+  sort-by: []
+  columns:
+    memid:
+      type: UUIDv4
+      args:
+        seed: 0.8673141741538969
+        null_pct: 0.0
+        array: 0
+    surname:
+      type: string
+      args:
+        min: 10
+        max: 30
+        prefix: ''
+        seed: 0.6193246330865363
+        null_pct: 0.0
+        array: 0
+    firstname:
+      type: string
+      args:
+        min: 10
+        max: 30
+        prefix: ''
+        seed: 0.6669246275017738
+        null_pct: 0.0
+        array: 0
+    address:
+      type: string
+      args:
+        min: 10
+        max: 30
+        prefix: ''
+        seed: 0.33940353067781404
+        null_pct: 0.0
+        array: 0
+    zipcode:
+      type: integer
+      args:
+        min: -9223372036854775807
+        max: 9223372036854775807
+        seed: 0.8119650460388156
+        null_pct: 0.0
+        array: 0
+    telephone:
+      type: string
+      args:
+        min: 10
+        max: 30
+        prefix: ''
+        seed: 0.5095054112541846
+        null_pct: 0.0
+        array: 0
+    recommendedby:
+      type: integer
+      args:
+        min: -9223372036854775807
+        max: 9223372036854775807
+        seed: 0.08971324242475953
+        null_pct: 0.25
+        array: 0
+    joindate:
+      type: timestamp
+      args:
+        start: '2000-01-01'
+        end: '2024-12-31'
+        format: '%Y-%m-%d %H:%M:%S.%f'
+        seed: 0.5189504163448847
+        null_pct: 0.0
+        array: 0
